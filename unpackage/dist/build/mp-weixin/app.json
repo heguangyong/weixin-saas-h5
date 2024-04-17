@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesSys",
+      "pages": [
+        "site/product"
+      ]
+    },
+    {
+      "root": "pagesCmn",
+      "pages": [
+        "product/ShareProductDetail",
+        "product/ProductQrcode"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "plugins": {},
+  "navigateToMiniProgramAppIdList": [
+    "wx57628b80a1d8f511",
+    "wx6d403c7d07c9e186",
+    "wx91d27dbf599dff74",
+    "wx32540bd863b27570"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于导航展示"
+    }
+  },
+  "usingComponents": {
+    "site": "/pages/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
